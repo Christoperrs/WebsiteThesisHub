@@ -39,7 +39,7 @@ class ProyekAkhir extends CI_Controller {
         $encrypted_file_name = md5($file_data['file_name'] . time()) . $file_data['file_ext'];
         rename($file_data['full_path'], $file_data['file_path'] . $encrypted_file_name);
         $this->ProyekAkhirM->insert_laporan($encrypted_file_name);
-        // redirect('ProyekAkhir');
+         redirect('ProyekAkhir');
     }
   }
 
