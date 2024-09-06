@@ -19,3 +19,10 @@ Server PHP
 *******************
 
 PHP versi 5.6 atau diatasnya
+
+*******************
+Penggunaan Program :
+*******************
+1. Letakkan folder aplikasi pada htdocs XAMPP atau sejenisnya 
+2. Atur base_url pada file config.php 
+3. Atur database pada file database.php
